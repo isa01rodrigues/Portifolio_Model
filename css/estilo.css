@@ -1,0 +1,73 @@
+/***************Tags Padrão******************************/
+h1 {
+    font-size: 3.1em;
+    font-family: monospace;
+}
+
+h2 {
+
+    align-items: flex-start;
+    font-family: monospace;
+}
+
+p{
+    font-family: monospace;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    align-items: center;
+    font-size: 1.7em;
+    list-style: none;
+    color: #000;
+}
+
+.site {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/************************************************/
+
+body {
+    background: #000
+}
+
+
+/*******************Seção do cabeçalho*************************/
+.cabecalho {
+    background-color: #525052;
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+
+.cabecalho div {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 20%;
+}
+
+/*************Seção Fundo Branco******************************/
+.fundoBranco {
+    width: 90%;
+    height: 590px;
+    background-color: #fff;
+}
+
+.fundoBranco .texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.fundoBranco div {
+    display: flex;
+    justify-content: space-around;
+
+}
+/*********************************/
